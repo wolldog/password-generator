@@ -88,19 +88,27 @@ function allFalse(){
   
   function characterSet() {
     if (useLowerCase){
-        characters += lowerCase
+        characters += lowerCase 
+        password += lowerCase.charAt([Math.floor(Math.random() * lowerCase.length)]);
+        passwordLength--
       }
   
       if (useUpperCase){
         characters  += upperCase
+        password += upperCase.charAt([Math.floor(Math.random() * upperCase.length)]);
+        passwordLength--
       }
   
       if (useNumeric){
         characters  += numeric
+        password += numeric.charAt([Math.floor(Math.random() * numeric.length)]);
+        passwordLength--
       }
   
       if (useSpecialChar){
         characters += specialChar
+        password += specialChar.charAt([Math.floor(Math.random() * specialChar.length)]);
+        passwordLength--
       }
   
     console.log(characters)
@@ -113,22 +121,7 @@ function allFalse(){
 
       for (var i=0; i<passwordLength; i++) 
       {password += characters.charAt([Math.floor(Math.random() * characters.length)]);}
-      
-
-      if (useLowerCase && password.includes === false)
-      {generate()};
-  
-      if (useUpperCase && password.includes === false)
-      {generate()};
-  
-      if (useNumeric && password.includes === false)
-      {generate()};
-  
-      if (useSpecialChar && password.includes === false)
-      {generate()};
-  
-      console.log(password)
-      }
+}
   
       //Execute all functions within 'generatePassword'
 
