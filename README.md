@@ -13,7 +13,7 @@ This application will produce a randomomized password when you click 'Generate P
  - Lowercase letters (abcdefghijklmnopqrstuvwxyz)
  - Uppercase letters (ABCDEFGHIJKLMNOMPQRSTUVWXYZ)
  - Numbers (1234567890)
- - Special Characters (!@#$%^&*()_+?/)
+ - Special Characters (!#$%&'()*+,-./:;<=>?@[\]^_`{|}~)
  
  ![Windows confirm box asking whether or not to use lowercase letters.](https://user-images.githubusercontent.com/110208272/204711252-6296d513-4b8b-4719-b69f-a959d2a6042c.png)
 
