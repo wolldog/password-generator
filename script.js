@@ -104,8 +104,11 @@ function allFalse(){
     console.log(characters)
     }
   
+    function generate(){
 
-}
+      for (var i=0; i<passwordLength; i++) 
+      {password += characters.charAt([Math.floor(Math.random() * characters.length)]);}
+    }
 
 
 
