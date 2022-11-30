@@ -108,7 +108,26 @@ function allFalse(){
 
       for (var i=0; i<passwordLength; i++) 
       {password += characters.charAt([Math.floor(Math.random() * characters.length)]);}
-    }
+      }
+
+      if (useLowerCase && password.includes === false)
+      {generate()};
+  
+      if (useUpperCase && password.includes === false)
+      {generate()};
+  
+      if (useNumeric && password.includes === false)
+      {generate()};
+  
+      if (useSpecialChar && password.includes === false)
+      {generate()};
+  
+      console.log(password)
+      }
+
+
+
+
 
 
 
