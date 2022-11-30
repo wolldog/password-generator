@@ -109,12 +109,15 @@ function allFalse(){
   
     console.log(characters)
     }
+
+    //Choose a random selection from concatonated string 'characters' and validate that at least one 
+    //character from each of the chosen sets is present in the result.
   
     function generate(){
 
       for (var i=0; i<passwordLength; i++) 
       {password += characters.charAt([Math.floor(Math.random() * characters.length)]);}
-      }
+      
 
       if (useLowerCase && password.includes === false)
       {generate()};
@@ -129,7 +132,7 @@ function allFalse(){
       {generate()};
   
       console.log(password)
-      
+      }
   
       //Execute all functions within 'generatePassword'
 
@@ -158,3 +161,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+console.log(password)
