@@ -1,3 +1,23 @@
+//global variables
+
+var password = '';
+var characters = '';
+var passwordLength = 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
