@@ -15,6 +15,13 @@ function generatePassword(){
   var numeric = '123456789';
   var specialChar = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
+  //Chosen character sets
+
+var useLowerCase;
+var useUpperCase;
+var useNumeric;
+var useSpecialChar;
+
 //User chooses password length with validity check
 
 function chooseLength(){
