@@ -4,7 +4,22 @@ var password = '';
 var characters = '';
 var passwordLength = 0;
 
+//Start of generatePassword function. This function will be excecuted when the 'Generate Password' button is clicked.
 
+function generatePassword(){
+
+  //Character sets
+
+  var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+  var upperCase = 'ABCDEFGHIJKLMOPQRSTUVWXYZ';
+  var numeric = '123456789';
+  var specialChar = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+
+
+  
+}
+
+  
 
 
 
