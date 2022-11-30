@@ -68,8 +68,20 @@ function chooseSpecial(){
   console.log(useSpecialChar)
 }
 
-  
+//Check user has chosen at least on character set
 
+function allFalse(){
+  if (useLowerCase === false && useUpperCase === false && useNumeric === false && useSpecialChar === false)
+  {
+    window.alert("Please choose at least one option.");
+    chooseLowerCase();
+    chooseUpperCase();
+    chooseNumeric();
+    chooseSpecial();
+    allFalse();
+  }
+}  
+}
 
 
 
