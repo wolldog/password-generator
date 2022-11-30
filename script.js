@@ -123,7 +123,20 @@ function allFalse(){
       {generate()};
   
       console.log(password)
-      }
+      
+  
+      //Execute all functions within 'generatePassword'
+
+      chooseLength();
+      chooseLowerCase();
+      chooseUpperCase();
+      chooseNumeric();
+      chooseSpecial();
+      allFalse();
+      characterSet()
+      generate();
+
+    }
 
 
 
