@@ -39,6 +39,28 @@ function chooseLength(){
 
 }
 
+// Capture users choice of characters to include
+
+function chooseLowerCase(){
+  useLowerCase = confirm("Should the password contain lowercase letters?");
+  console.log(useLowerCase);
+}
+
+function chooseUpperCase(){
+  useUpperCase = confirm("Should the password contain uppercase letters?");
+  console.log(useUpperCase);
+}
+
+function chooseNumeric(){
+  useNumeric = confirm("Should the password contain numbers?");
+  console.log(useNumeric)
+}
+  
+function chooseSpecial(){
+  useSpecialChar = confirm("Should the password contain special characters?");
+  console.log(useSpecialChar)
+}
+
   
 
 
