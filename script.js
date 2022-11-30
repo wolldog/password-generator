@@ -15,8 +15,28 @@ function generatePassword(){
   var numeric = '123456789';
   var specialChar = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
+//User chooses password length with validity check
 
+function chooseLength(){
+
+  passwordLength = prompt('How many characters would you like your password to contain? Please choose a number between 8 and 120.');
+    
+  if (isNaN(passwordLength))
+    
+    {
+      window.alert("That is not a number. Please choose a number between 8 and 120.")
+      chooseLength();
+    }
   
+    else if (passwordLength < 8 || passwordLength > 120)
+    
+    {
+      window.alert("That is an invalid length, please try again");
+      chooseLength();
+    }  
+
+    console.log(passwordLength)
+
 }
 
   
