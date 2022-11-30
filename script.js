@@ -22,6 +22,12 @@ var useUpperCase;
 var useNumeric;
 var useSpecialChar;
 
+//Reset variables to null
+
+password = null;
+characters = null;
+passwordLength = null;
+
 //User chooses password length with validity check
 
 function chooseLength(){
@@ -137,21 +143,6 @@ function allFalse(){
       generate();
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
