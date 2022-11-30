@@ -134,6 +134,10 @@ function allFalse(){
       characterSet()
       generate();
 
+      //pass the generated password to the function caller
+
+      return password
+
     }
 
 // Assignment Code
