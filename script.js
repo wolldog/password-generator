@@ -20,9 +20,9 @@ var useSpecialChar;
 
 //Reset variables to null
 
-password = null;
-characters = null;
-passwordLength = null;
+var password = '';
+var characters = '';
+var passwordLength;
 
 //User chooses password length with validity check
 
