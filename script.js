@@ -81,6 +81,30 @@ function allFalse(){
     allFalse();
   }
 }  
+
+  //Add chosen character sets to variable 'characters'
+  
+  function characterSet() {
+    if (useLowerCase){
+        characters += lowerCase
+      }
+  
+      if (useUpperCase){
+        characters  += upperCase
+      }
+  
+      if (useNumeric){
+        characters  += numeric
+      }
+  
+      if (useSpecialChar){
+        characters += specialChar
+      }
+  
+    console.log(characters)
+    }
+  
+
 }
 
 
