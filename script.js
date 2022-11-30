@@ -1,8 +1,4 @@
-//global variables
 
-var password = '';
-var characters = '';
-var passwordLength = 0;
 
 //Start of generatePassword function. This function will be excecuted when the 'Generate Password' button is clicked.
 
