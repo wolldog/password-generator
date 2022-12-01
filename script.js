@@ -1,6 +1,7 @@
 
 
-//Start of generatePassword function. This function will be excecuted when the 'Generate Password' button is clicked.
+//Start of generatePassword function. This function is called by the writePassword function that is excecuted when the 
+//'Generate Password' button is clicked.
 
 function generatePassword(){
 
@@ -18,7 +19,7 @@ function generatePassword(){
   var useNumeric;
   var useSpecialChar;
 
-  //Reset variables to null
+  //Reset variables to empty string
 
   var password = '';
   var characters = '';
@@ -94,22 +95,22 @@ function generatePassword(){
         passwordLength--
       }
 
-      if (useUpperCase){
-        characters  += upperCase
-        password += upperCase.charAt([Math.floor(Math.random() * upperCase.length)]);
-        passwordLength--
+    if (useUpperCase){
+      characters  += upperCase
+      password += upperCase.charAt([Math.floor(Math.random() * upperCase.length)]);
+      passwordLength--
       }
 
-      if (useNumeric){
-        characters  += numeric
-        password += numeric.charAt([Math.floor(Math.random() * numeric.length)]);
-        passwordLength--
+    if (useNumeric){
+      characters  += numeric
+      password += numeric.charAt([Math.floor(Math.random() * numeric.length)]);
+      passwordLength--
       }
 
-      if (useSpecialChar){
-        characters += specialChar
-        password += specialChar.charAt([Math.floor(Math.random() * specialChar.length)]);
-        passwordLength--
+    if (useSpecialChar){
+      characters += specialChar
+      password += specialChar.charAt([Math.floor(Math.random() * specialChar.length)]);
+      passwordLength--
       }
 
     console.log(characters)
