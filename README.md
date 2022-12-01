@@ -54,10 +54,6 @@ Once the password has been generated, it will be displayed in the text box.
 ![Generated password displayed in the application](https://user-images.githubusercontent.com/110208272/204977583-6d54e897-0ee8-4914-befa-9467acb1b84e.png)
 
 
-## Installation
-
-N/A
-
 ## Credits
 
 N/A
