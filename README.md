@@ -16,7 +16,7 @@ There is input validation built in for the chosen password length and to ensure 
 
 The application works in your browser and does not require installation.
 
-//To do, insert URL
+[Password Generator](https://wolldog.github.io/password-generator/)
  
 ## Usage
  
